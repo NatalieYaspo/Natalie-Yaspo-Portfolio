@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 import './index.css';
 
 // Bringing in the pages the router will use to conditionally show the appropriate views
 import App from './App';
-// import ErrorPage from './pages/ErrorPage';
-// import HomePage from './pages/HomePage';
+import ErrorPage from './pages/ErrorPage';
 // import ProfilePage from './pages/ProfilePage';
 import AboutMePage from './pages/AboutMePage';
 
@@ -21,12 +21,12 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <HomePage />,
+        element: <AboutMePage/>,
       },
-      {
-        path: 'profile/:id',
-        element: <ProfilePage />,
-      },
+      // {
+      //   path: 'profile/:id',
+      //   element: <ProfilePage />,
+      // },
       {
         path: 'aboutme',
         element: <AboutMePage />,
