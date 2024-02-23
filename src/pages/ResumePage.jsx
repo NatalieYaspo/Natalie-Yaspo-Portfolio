@@ -2,7 +2,7 @@ export default function Resume() {
     return (
       <div>
         <h2>Resume:</h2>
-        <a href="https://drive.google.com/file/d/1MkTFZ-mYZQ9PE0CZNkJXTc_sc-Y67_Fi/view?usp=sharing">Download Resume</a>
+        <a className="link-dark" href="https://drive.google.com/file/d/1MkTFZ-mYZQ9PE0CZNkJXTc_sc-Y67_Fi/view?usp=sharing">Download Resume</a>
         <div>
           <h3>Proficiencies:</h3>
           <ul>
