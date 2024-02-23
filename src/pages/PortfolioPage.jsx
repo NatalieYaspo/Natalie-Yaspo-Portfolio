@@ -1,7 +1,5 @@
 import Giflix from '../images/Giflix.png'
 import AnothersTreasure from '../images/AnothersTreasure.png'
-
-
 import Readme from '../images/Readme.png'
 import Weather from '../images/Weather.png'
 import NoSql from '../images/NoSqlAPI.png'
