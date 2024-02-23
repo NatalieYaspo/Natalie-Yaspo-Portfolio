@@ -11,7 +11,7 @@ export default function Portfolio() {
   return (
     <div>
       <h2>Portfolio:</h2>
-      <div className="album py-5 bg-body-tertiary">
+      <div className="album py-5">
         {/* Change the bg-body-tertiary to a different background color */}
         <div className="container">
 
