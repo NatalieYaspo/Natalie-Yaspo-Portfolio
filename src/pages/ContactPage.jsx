@@ -16,7 +16,7 @@ export default function Contact() {
     <div className="container col-xxl-10 px-1 py-2">
       <div className="row flex-lg-row-reverse align-items-center g-5 py-1">
       <h2 className="text-center">Contact Me:</h2>
-      <div className=" px-4">
+      <div className="px-4">
         <form onSubmit={handleSubmit((data) => setData(JSON.stringify(data)))}>
           <div className="mb-3">
             <label htmlFor="exampleFormControlInput1" className="form-label text-white">Name:</label>
