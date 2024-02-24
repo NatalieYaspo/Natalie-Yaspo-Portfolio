@@ -9,7 +9,7 @@ export default function About() {
         </div>
         <div className="col-lg-8 px-4">
           <h1 className="display-5 fw-bold text-white lh-1 mb-3">About Me:</h1>
-          <p className="lead text-light">After many years in the Hospitality industry, I have recently taken the plunge into the coding and web development world.
+          <p className="lead text-light">After fifteen plus years in the Hospitality industry, I have recently taken the plunge into the coding and web development world.
             I will have competeted the Full-Stack Coding Bootcamp through UNC Charlotte in early March.
             <br></br>
             <br></br>
