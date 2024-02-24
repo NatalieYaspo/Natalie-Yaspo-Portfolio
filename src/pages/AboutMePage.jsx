@@ -11,7 +11,8 @@ export default function About() {
           <h1 className="display-5 fw-bold text-white lh-1 mb-3">About Me:</h1>
           <p className="lead text-light">After many years in the Hospitality industry, I have recently taken the plunge into the coding and web development world.
             I will have competeted the Full-Stack Coding Bootcamp through UNC Charlotte in early March.
-
+            <br></br>
+            <br></br>
             I am seeking a role as a software engineer where I can incorporate my operational experience with Marriott to help enhance applications.
             I have many years of experience with professional communication, project and event management, logistics and successfully meeting leadership and ownership goals.</p>
         </div>

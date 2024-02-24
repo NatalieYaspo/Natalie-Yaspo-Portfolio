@@ -40,6 +40,17 @@ h1 {
   color: white
 }
 
+p {
+  color: white
+}
+
+p.italic {
+  font-style: italic;
+}
+
+p.bold {
+  font-weight: bold;
+}
 
 span {
   color: white
@@ -49,14 +60,9 @@ span {
   color: white
 }
 
-.nav-link:focus {
-  color: white
-}
-
 h2 {
   color: white
 }
-
 
 button {
   border-radius: 8px;
@@ -65,7 +71,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #00bfb2;
+  background-color: #1a5e63;
   cursor: pointer;
   transition: border-color 0.5s;
 }
@@ -86,6 +92,6 @@ button:focus-visible {
     color: #0e0e0f;
   }
   button {
-    background-color: #F0F3bd;
+    background-color: #00bfb2;
   }
 }

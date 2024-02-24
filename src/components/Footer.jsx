@@ -1,6 +1,6 @@
 function Footer() {
     return (
-    <footer className="footer mt-auto py-3 d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <footer className="footer mt-auto py-3 d-flex w-100 flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
         <div className="col-md-4 d-flex align-items-center">
           <span className="mb-3 mb-md-0">© 2024 Natalie Yaspo</span>
         </div>

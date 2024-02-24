@@ -13,12 +13,13 @@ export default function Contact() {
   const onSubmit = (data) => console.log(data)
 
   return (
-    <div className="container-xxl">
-      <h2>Contact Me:</h2>
-      <div className="container-xxl">
+    <div className="container col-xxl-10 px-1 py-2">
+      <div className="row flex-lg-row-reverse align-items-center g-5 py-1">
+      <h2 className="text-center">Contact Me:</h2>
+      <div className=" px-4">
         <form onSubmit={handleSubmit((data) => setData(JSON.stringify(data)))}>
           <div className="mb-3">
-            <label htmlFor="exampleFormControlInput1" className="form-label">Name:</label>
+            <label htmlFor="exampleFormControlInput1" className="form-label text-white">Name:</label>
             <input onChange={(e) => setName(e.target.value)}
               onBlur={() => {
                 if (name == "") {
@@ -27,10 +28,10 @@ export default function Contact() {
                 register("name", {
                   required: "Name is required.",
                 })
-              }} type="name" className="form-control" id="exampleFormControlInput1" placeholder="Name Goes Here..." />
+              }} type="name" className="form-control" id="exampleFormControlInput1" placeholder="Name goes here..." />
           </div>
           <div className="mb-3">
-            <label htmlFor="exampleFormControlInput1" className="form-label">Email address:</label>
+            <label htmlFor="exampleFormControlInput1" className="form-label text-white">Email address:</label>
             <input type="email"
               className="form-control"
               id="exampleFormControlInput1"
@@ -50,7 +51,7 @@ export default function Contact() {
               }} />
           </div>
           <div className="mb-3">
-            <label htmlFor="message" className="form-label">Message:</label>
+            <label htmlFor="message" className="form-label text-white">Message:</label>
             <textarea onChange={(e) => setMessage(e.target.value)}
               onBlur={() => {
                 if (message == "") {
@@ -80,12 +81,10 @@ export default function Contact() {
         <br></br>
         <button type="button" className="btn btn-sm btn-outline-secondary"><a href="mailto:nyaspo8@gmail.com">Email Me</a></button>
       </div>
+      </div>
     </div>
   );
 }
-
-// const rootElement = document.getElementById("root");
-// ReactDOM.render(<App />, rootElement);
 
 
 
