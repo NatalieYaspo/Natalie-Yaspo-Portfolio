@@ -8,16 +8,16 @@ import Placeholder from '../images/NatalieYaspo.jpg'
 export default function Portfolio() {
   return (
     <div>
-      <h2>Portfolio:</h2>
+      <h2 className="text-center">Portfolio</h2>
       <div className="album py-5">
         {/* Change the bg-body-tertiary to a different background color */}
         <div className="container">
 
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <div className="col">
-              <div className="card shadow-sm">
+              <div className="card shadow p-3 mb-5 bg-secondary-subtle">
                 <img className="bd-placeholder-img card-img-top" width="100%" height="225" src={Giflix} role="img" preserveAspectRatio="xMidYMid slice" focusable="false" />
-                <div className="card-body justify-content-center">
+                <div className="card-body text-center">
                   <h5 className="justify-content-center">Giflix</h5>
                   <p className="card-text">The one-stop, quick movie reference app</p>
                   <div className="d-flex justify-content-center align-items-center">
@@ -30,9 +30,9 @@ export default function Portfolio() {
               </div>
             </div>
             <div className="col">
-              <div className="card shadow-sm">
+              <div className="card shadow p-3 mb-5 bg-secondary-subtle">
               <img className="bd-placeholder-img card-img-top" width="100%" height="225" src={AnothersTreasure} role="img" preserveAspectRatio="xMidYMid slice" focusable="false" />
-                <div className="card-body">
+                <div className="card-body text-center">
                 <h5 className="justify-content-center">Another's Treasure</h5>
                   <p className="card-text">A simple, community resource sharing app.</p>
                   <div className="d-flex justify-content-center align-items-center">
@@ -45,9 +45,9 @@ export default function Portfolio() {
               </div>
             </div>
             <div className="col">
-              <div className="card shadow-sm">
+              <div className="card shadow p-3 mb-5 bg-secondary-subtle">
               <img className="bd-placeholder-img card-img-top" width="100%" height="225" src={Placeholder} role="img" preserveAspectRatio="xMidYMid slice" focusable="false" />
-                <div className="card-body">
+                <div className="card-body text-center">
                 <h5 className="justify-content-center">Project 3 Placeholder</h5>
                   <p className="card-text">I know this one will be awesome!</p>
                   <div className="d-flex justify-content-center align-items-center">
@@ -61,9 +61,9 @@ export default function Portfolio() {
             </div>
 
             <div className="col">
-              <div className="card shadow-sm">
+              <div className="card shadow p-3 mb-5 bg-secondary-subtle">
               <img className="bd-placeholder-img card-img-top" width="100%" height="225" src={Readme} role="img" preserveAspectRatio="xMidYMid slice" focusable="false" />
-                <div className="card-body">
+                <div className="card-body text-center">
                 <h5 className="justify-content-center">README Generator</h5>
                   <p className="card-text">A proressional README Generator using the CLI.</p>
                   <div className="d-flex justify-content-center align-items-center">
@@ -76,9 +76,9 @@ export default function Portfolio() {
               </div>
             </div>
             <div className="col">
-              <div className="card shadow-sm">
+              <div className="card shadow p-3 mb-5 bg-secondary-subtle">
               <img className="bd-placeholder-img card-img-top" width="100%" height="225" src={Weather} role="img" preserveAspectRatio="xMidYMid slice" focusable="false" />
-                <div className="card-body">
+                <div className="card-body text-center">
                 <h5 className="justify-content-center">Weather Dashboard</h5>
                   <p className="card-text">A basic weather dashboard using a REST API.</p>
                   <div className="d-flex justify-content-center align-items-center">
@@ -91,9 +91,9 @@ export default function Portfolio() {
               </div>
             </div>
             <div className="col">
-              <div className="card shadow-sm">
+              <div className="card shadow p-3 mb-5 bg-secondary-subtle">
               <img className="bd-placeholder-img card-img-top" width="100%" height="225" src={NoSql} role="img" preserveAspectRatio="xMidYMid slice" focusable="false" />
-                <div className="card-body">
+                <div className="card-body text-center">
                 <h5 className="justify-content-center">NoSQL Social Network API</h5>
                   <p className="card-text">NoSQL database API to handle large amounts of data.</p>
                   <div className="d-flex justify-content-center align-items-center">

@@ -16,7 +16,7 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: white;
   text-decoration: inherit;
 }
 a:hover {
@@ -29,20 +29,34 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-image: url('../src/images/BlueBackground.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: white
 }
 
-header {
-  background-color: rgb(50, 146, 146);
+
+span {
+  color: white
+ }
+
+.nav-link {
+  color: white
 }
 
-footer {
-  background-color: rgb(50, 146, 146);
+.nav-link:focus {
+  color: white
 }
+
+h2 {
+  color: white
+}
+
 
 button {
   border-radius: 8px;
@@ -51,12 +65,12 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #F0F3bd;
+  background-color: #00bfb2;
   cursor: pointer;
   transition: border-color 0.5s;
 }
 button:hover {
-  border-color: #1a5e63;
+  background-color: #1a5e63;
 }
 button:focus,
 button:focus-visible {
