@@ -1,8 +1,4 @@
-# React + Vite
-
-
 # Natalie-Yaspo-Portfolio
-
 
 ## Description
 
@@ -18,11 +14,6 @@ A React portfolio to showcase my previous projects as a full-stack web developer
 ## Installation
 
 URL: https://natalieyaspoportfolio.netlify.app/
-<!-- Do I need this? -->
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 ## Usage
 
@@ -57,10 +48,8 @@ Developer:
 - Natalie Yaspo
 
 Collaborators:
-- 
-
-Tutorials:
-- 
+- Le, Roger via zoom on 23 February, 2024
+- Elliott, Jared via zoom on 23 February, 2024
 
 ## License
 

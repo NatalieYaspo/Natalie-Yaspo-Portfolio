@@ -5,11 +5,11 @@ function Project({ image, title, description, deployedUrl, githubUrl, deployed }
                 <img className="bd-placeholder-img card-img-top" width="100%" height="225" src={image} role="img" preserveAspectRatio="xMidYMid slice" focusable="false" />
                 <div className="card-body text-center">
                     <h5 className="justify-content-center">{title}</h5>
-                    <p className="card-text">{description}</p>
+                    <p className="card-text text-body-emphasis">{description}</p>
                     <div className="d-flex justify-content-center align-items-center">
                         <div className="btn-group">
-                            <button type="button" className="btn btn-sm btn-outline-secondary"><a href={deployedUrl}>{deployed}</a></button>
-                            <button type="button" className="btn btn-sm btn-outline-secondary"><a href={githubUrl}>GitHub</a></button>
+                            <button type="button" className="btn btn-sm btn-primary btn-outline-secondary"><a href={deployedUrl}>{deployed}</a></button>
+                            <button type="button" className="btn btn-sm btn-info btn-outline-secondary"><a href={githubUrl}>GitHub</a></button>
                         </div>
                     </div>
                 </div>
