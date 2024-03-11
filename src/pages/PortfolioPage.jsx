@@ -6,6 +6,7 @@ import Readme from '../images/Readme.png'
 import Weather from '../images/Weather.png'
 import NoSql from '../images/NoSqlAPI.png'
 import Placeholder from '../images/NatalieYaspo.jpg'
+import GitFix from '../images/GitFix.png'
 
 export default function Portfolio() {
   return (
@@ -33,11 +34,11 @@ export default function Portfolio() {
               deployed={"Deployed App"} />
 
             <Project key={3}
-              image={Placeholder}
-              title={"Placeholder"}
-              description={"Placeholder"}
-              deployedUrl={"TBD"}
-              githubUrl={"TBD"} 
+              image={GitFix}
+              title={"GitFix"}
+              description={"A community to help get GitHub issues fixed."}
+              deployedUrl={"https://gitfix-2i62.onrender.com/"}
+              githubUrl={"https://github.com/NatalieYaspo/GitFix"} 
               deployed={"Deployed App"} />
 
             <Project key={4}
