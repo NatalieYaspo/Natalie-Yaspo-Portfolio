@@ -13,7 +13,7 @@ A React portfolio to showcase my previous projects as a full-stack web developer
 
 ## Installation
 
-URL: https://natalieyaspoportfolio.netlify.app/
+URL: https://natalie-yaspo-portfolio-1.onrender.com/
 
 ## Usage
 
