@@ -16,8 +16,8 @@ export default function Contact() {
     <div className="container col-xxl-10 px-1 py-2">
       <div className="row flex-lg-row-reverse align-items-center g-5 py-1">
       <h2 className="text-center">Contact Me</h2>
-      <div className="px-4">
-        <form onSubmit={handleSubmit((data) => setData(JSON.stringify(data)))}>
+      <div className="text-center">
+        {/* <form onSubmit={handleSubmit((data) => setData(JSON.stringify(data)))}>
           <div className="mb-3">
             <label htmlFor="exampleFormControlInput1" className="form-label text-white">Name:</label>
             <input onChange={(e) => setName(e.target.value)}
@@ -65,7 +65,7 @@ export default function Contact() {
           </div>
           <button type="submit" className="btn btn-sm btn-outline-secondary">SUBMIT</button>
           {/* Showing the error messages when incorrect information entered in form. */}
-          <ErrorMessage
+          {/* <ErrorMessage
             errors={errors}
             name="multipleErrorInput"
             render={({ messages }) => {
@@ -77,8 +77,8 @@ export default function Contact() {
                 : null;
             }}
           />
-        </form>
-        <br></br>
+        </form> */}
+        {/* <br></br> */}
         <button type="button" className="btn btn-sm btn-info btn-outline-secondary"><a href="mailto:nyaspo8@gmail.com">Email Me</a></button>
       </div>
       </div>
