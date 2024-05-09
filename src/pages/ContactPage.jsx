@@ -79,7 +79,7 @@ export default function Contact() {
           />
         </form> */}
         {/* <br></br> */}
-        <button type="button" className="btn btn-sm btn-info btn-outline-secondary"><a href="mailto:nyaspo8@gmail.com">Email Me</a></button>
+        <button type="button" className="btn btn-sm btn-info btn-outline-secondary"><a href="mailto:natalie.yaspo@gmail.com">Email Me</a></button>
       </div>
       </div>
     </div>
