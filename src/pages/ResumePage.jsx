@@ -4,7 +4,7 @@ export default function Resume() {
       <div className="p-5 text-center bg-body-white">
         <div className="container">
           <h3 className="text-white">Resume:</h3>
-          <button type="button" className="btn btn-sm btn-info btn-outline-secondary"><a href="https://drive.google.com/file/d/1MkTFZ-mYZQ9PE0CZNkJXTc_sc-Y67_Fi/view?usp=sharing">Download Resume</a></button>
+          <button type="button" className="btn btn-sm btn-info btn-outline-secondary"><a href="https://drive.google.com/file/d/17yrqYH2Y6D-TGNzljfPK1OlMqzD3q6Qi/view?usp=sharing">Download Resume</a></button>
         </div>
         <div className="container py-5">
           <h3 className="text-white">Proficiencies</h3>
